@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+a {
+	display: inline-block;
+	color:#000;
+	padding: 4px;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #555;
+	color: white;
+}
+</style>
+
+<title>
+Order Form -- Allen's Bakery
+</title>
+
+<body>
+	<header>
+		<h1>
+			Allen's Bakery
+		</h1>
+	</header>
+	<nav>
+		<a href="home.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="menu.html">Menu</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="order.html">Order Now!</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="nutrition.html">Nutritional Facts</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<a href="about.html">About</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</nav>
+	<main>
+		<br/>
+		<h3>Order Form</h3>
+		<form action="mailto:allenn4262@student.faytechcc.edu">
+			<b>First name:</b><br>
+			<input type="text" name="firstname" value="">
+			<br>
+			<b>Last name:</b><br>
+			<input type="text" name="lastname" value="">
+			<br>
+			<b>Phone number:</b></br>
+			<input type="text" name="phone" value="">
+			<br>
+			<b>Type:</b><br>
+			<select>
+				<option value="cake">Cake</option>
+				<option value="cheesecake">Cheesecake</option>
+				<option value="donuts">Donuts</option>
+			</select>
+			<br>
+			<b>Flavor:</b><br>
+			<select>
+				<option value="chocolate">Chocolate</option>
+				<option value="vanilla">Vanilla</option>
+				<option value="strawberry">Strawberry</option>
+				<option value="red-velvet">Red Velvet</option>
+			</select>
+			<br>
+			<b>Additional requests:</b></br>
+			<textarea name="requests" cols="35" rows="5"></textarea>
+
+			<br><br>
+			<input type="submit" value="Submit">
+		</form> 
+		
+		<div>
+			<p>
+				Allen's Bakery <br>
+				90210 Hollywood Blvd <br>
+				Orlando, Fl 32789 <br>
+				(910) 555-7890 <br>
+				Open 10am-4pm <br>
+			</p>
+		</div>
+	</main>
+	<footer>
+		&copy; 2017 Allen's Bakery <br>
+		<a href="mailto:allenn4262@student.faytechcc.edu">allenn4262@student.faytechcc.edu</a>
+	</footer>
+</body>
+
+</html>
